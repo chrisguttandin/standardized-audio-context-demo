@@ -3,7 +3,7 @@
 **A demo page to show how to use standardized-audio-context.**
 
 [![tests](https://img.shields.io/travis/chrisguttandin/standardized-audio-context-demo/master.svg?style=flat-square)](https://travis-ci.org/chrisguttandin/standardized-audio-context-demo)
-[![dependencies](https://img.shields.io/david/chrisguttandin/standardized-audio-context-demo.svg?style=flat-square)](https://www.npmjs.com/package/standardized-audio-context-demo) [![Greenkeeper badge](https://badges.greenkeeper.io/chrisguttandin/standardized-audio-context-demo.svg)](https://greenkeeper.io/)
+[![dependencies](https://img.shields.io/david/chrisguttandin/standardized-audio-context-demo.svg?style=flat-square)](https://www.npmjs.com/package/standardized-audio-context-demo)
 
 This is a little demo page to show how to use [standardized-audio-context](https://github.com/chrisguttandin/standardized-audio-context). To see it in action please go to [chrisguttandin.github.io/standardized-audio-context-demo](https://chrisguttandin.github.io/standardized-audio-context-demo).
 
