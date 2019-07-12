@@ -28,7 +28,7 @@ const playNoise = async () => {
     }
 
     if (!isAudioWorkletLoaded) {
-        await audioContext.audioWorklet.addModule('scripts/worklet.js');
+        await audioContext.audioWorklet.addModule('./scripts/worklet.js');
 
         isAudioWorkletLoaded = true;
     }
