@@ -28,9 +28,9 @@ module.exports = {
         (isVersionUpdate) ? 'deploy' : null
     ]),
     'lint': [
-        'eslint',
         'postcss:lint',
-        'sh:lint'
+        'sh:lint-config',
+        'sh:lint-src'
     ],
     'monitor': [
         'build:development',
