@@ -38,7 +38,7 @@
     "husky": "^3.0.5",
     "hyperlink": "^4.3.2",
     "load-grunt-config": "^3.0.1",
-    "stylelint": "^10.1.0",
+    "stylelint": "^11.0.0",
     "stylelint-config-holy-grail": "^4.0.7",
     "webpack": "^4.40.2"
   },
