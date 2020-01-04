@@ -40,7 +40,7 @@
     "load-grunt-config": "^3.0.1",
     "stylelint": "^12.0.1",
     "stylelint-config-holy-grail": "^6.0.1",
-    "webpack": "^4.41.4"
+    "webpack": "^4.41.5"
   },
   "homepage": "https://chrisguttandin.github.io/standardized-audio-context-demo",
   "husky": {
