@@ -9,7 +9,7 @@
     }
   },
   "dependencies": {
-    "standardized-audio-context": "^24.0.1"
+    "standardized-audio-context": "^24.0.5"
   },
   "description": "A demo page to show how to use standardized-audio-context.",
   "devDependencies": {
