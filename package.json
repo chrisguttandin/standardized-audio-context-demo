@@ -39,7 +39,7 @@
     "hyperlink": "^4.5.0",
     "load-grunt-config": "^3.0.1",
     "stylelint": "^13.6.0",
-    "stylelint-config-holy-grail": "^6.0.1",
+    "stylelint-config-holy-grail": "^6.0.2",
     "webpack": "^4.43.0"
   },
   "homepage": "https://chrisguttandin.github.io/standardized-audio-context-demo",
