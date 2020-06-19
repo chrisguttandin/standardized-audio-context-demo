@@ -4,40 +4,37 @@ const stylelint = require('stylelint');
 
 module.exports = {
     development: {
-        files: [ {
-            cwd: 'src/styles/',
-            dest: 'build/styles/',
-            expand: true,
-            src: [ 'styles.css' ]
-        } ],
+        files: [
+            {
+                cwd: 'src/styles/',
+                dest: 'build/styles/',
+                expand: true,
+                src: ['styles.css']
+            }
+        ],
         options: {
-            processors: [
-                autoprefixer()
-            ]
+            processors: [autoprefixer()]
         }
     },
     lint: {
         options: {
             failOnError: true,
-            processors: [
-                stylelint({ config: { extends: 'stylelint-config-holy-grail' } })
-            ],
+            processors: [stylelint({ config: { extends: 'stylelint-config-holy-grail' } })],
             writeDest: false
         },
-        src: [ 'src/**/*.css' ]
+        src: ['src/**/*.css']
     },
     production: {
-        files: [ {
-            cwd: 'src/styles/',
-            dest: 'build/styles/',
-            expand: true,
-            src: [ 'styles.css' ]
-        } ],
+        files: [
+            {
+                cwd: 'src/styles/',
+                dest: 'build/styles/',
+                expand: true,
+                src: ['styles.css']
+            }
+        ],
         options: {
-            processors: [
-                autoprefixer(),
-                cssnano()
-            ]
+            processors: [autoprefixer(), cssnano()]
         }
     }
 };

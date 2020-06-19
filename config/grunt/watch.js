@@ -1,24 +1,16 @@
 module.exports = {
     development: {
-        files: [
-            'src/**'
-        ],
+        files: ['src/**'],
         options: {
             livereload: true
         },
-        tasks: [
-            'build:development'
-        ]
+        tasks: ['build:development']
     },
     production: {
-        files: [
-            'src/**'
-        ],
+        files: ['src/**'],
         options: {
             livereload: true
         },
-        tasks: [
-            'build:production'
-        ]
+        tasks: ['build:production']
     }
 };

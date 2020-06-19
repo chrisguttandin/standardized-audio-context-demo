@@ -5,14 +5,14 @@ module.exports = {
     deploy: {
         options: {
             base: 'build/',
-            message: `build page for version ${ env.TRAVIS_TAG }`,
-            repo: pkg.repository.url.replace(/:\/\//, `://${ env.GIT_HUB_ACCESS_TOKEN }@`),
+            message: `build page for version ${env.TRAVIS_TAG}`,
+            repo: pkg.repository.url.replace(/:\/\//, `://${env.GIT_HUB_ACCESS_TOKEN}@`),
             silent: true,
             user: {
                 email: env.GIT_HUB_USER_EMAIL,
                 name: env.GIT_HUB_USER_NAME
             }
         },
-        src: [ '**' ]
+        src: ['**']
     }
 };
