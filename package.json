@@ -40,7 +40,7 @@
         "load-grunt-config": "^3.0.1",
         "postcss": "^8.1.10",
         "prettier": "^2.2.0",
-        "pretty-quick": "^3.0.2",
+        "pretty-quick": "^3.1.0",
         "stylelint": "^13.7.2",
         "stylelint-config-holy-grail": "^6.0.3",
         "webpack": "^4.44.2"
