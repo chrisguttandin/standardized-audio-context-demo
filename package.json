@@ -63,5 +63,5 @@
     "scripts": {
         "test": "grunt lint"
     },
-    "version": "1.0.47"
+    "version": "1.0.48"
 }
