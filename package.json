@@ -46,12 +46,6 @@
         "webpack": "^5.39.0"
     },
     "homepage": "https://chrisguttandin.github.io/standardized-audio-context-demo",
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint --edit --extends @commitlint/config-angular",
-            "pre-commit": "pretty-quick --config config/prettier/config.json --staged && grunt lint"
-        }
-    },
     "license": "MIT",
     "main": "src/index.html",
     "name": "standardized-audio-context-demo",
@@ -61,6 +55,7 @@
         "url": "https://github.com/chrisguttandin/standardized-audio-context-demo.git"
     },
     "scripts": {
+        "prepare": "husky install",
         "test": "grunt lint"
     },
     "version": "1.0.61"
