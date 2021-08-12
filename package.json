@@ -58,5 +58,5 @@
         "prepare": "husky install",
         "test": "grunt lint"
     },
-    "version": "1.0.63"
+    "version": "1.0.64"
 }
