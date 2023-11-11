@@ -14,7 +14,7 @@
     "description": "A demo page to show how to use standardized-audio-context.",
     "devDependencies": {
         "@babel/core": "^7.23.3",
-        "@babel/preset-env": "^7.23.2",
+        "@babel/preset-env": "^7.23.3",
         "@commitlint/cli": "^17.8.0",
         "@commitlint/config-angular": "^17.8.0",
         "autoprefixer": "^10.4.16",
