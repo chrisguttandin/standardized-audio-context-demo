@@ -37,7 +37,7 @@
         "stylelint-config-holy-grail": "^12.0.24",
         "webpack": "^5.99.9",
         "webpack-cli": "^6.0.1",
-        "webpack-dev-server": "^5.2.1"
+        "webpack-dev-server": "^5.2.2"
     },
     "homepage": "https://chrisguttandin.github.io/standardized-audio-context-demo",
     "license": "MIT",
