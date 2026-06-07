@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 class NoiseProcessor extends AudioWorkletProcessor {
     // eslint-disable-next-line class-methods-use-this
     process(_, outputs) {
@@ -15,4 +16,5 @@ class NoiseProcessor extends AudioWorkletProcessor {
     }
 }
 
+// eslint-disable-next-line no-undef
 registerProcessor('noise-processor', NoiseProcessor);
