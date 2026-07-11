@@ -26,6 +26,11 @@ jobs:
               with:
                   node-version: 22.x
 
+            - name: Update npm
+              run: |
+                  npm install --global npm@11
+                  npm --version
+
             - name: Cache node modules
               uses: actions/cache@v6
               with:
@@ -59,6 +64,11 @@ jobs:
               uses: actions/setup-node@v6
               with:
                   node-version: 22.x
+
+            - name: Update npm
+              run: |
+                  npm install --global npm@11
+                  npm --version
 
             - name: Cache node modules
               uses: actions/cache@v6
