@@ -44,6 +44,7 @@
     "license": "MIT",
     "main": "src/index.html",
     "name": "standardized-audio-context-demo",
+    "packageManager": "npm@12",
     "private": true,
     "repository": {
         "type": "git",
